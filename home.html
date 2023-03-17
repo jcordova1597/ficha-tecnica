@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <link rel="stylesheet" href="css/style.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700;800&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+</head>
+
+<body class="home">
+  <header class="header">
+    <div class="container">
+      <div class="desktop-menu">
+        <div class="logo">
+          <img src="images/logo.svg" alt="Logo Páginas Amarillas" />
+        </div>
+        <div class="buscador">
+          <input class="buscador__input" name="buscador" placeholder="Buscar">
+        </div>
+        <nav class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item">
+              <a href="#">Encuentra Gente</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#">Mensajes</a>
+            </li>
+            <li class="menu__list-item">
+              <a href="#">Contacto</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="mobile-menu">
+        <input type="checkbox" id="menuToogle">
+        <label for="menuToogle" class="menu-icon"></label>
+        <div class="mobile-menu__items">
+          <nav class="menu-mobile">
+            <ul class="menu__list">
+              <li class="menu__list-item">
+                <a href="#">Encuentra Gente</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#">Mensajes</a>
+              </li>
+              <li class="menu__list-item">
+                <a href="#">Contacto</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="logo">
+          <img src="images/logo.svg" alt="Logo Páginas Amarillas" />
+        </div>
+      </div>
+    </div>
+    
+  </header>
+  <main class="container">
+    <h1>Ficha Técnica</h1>
+    <section class="profile">
+      <div class="profile__info">
+        <div class="profile__info-image">
+          <a class="profile__info-image-modal" href="#modal"></a>
+          <figure>
+            <img class="profile__picture" src="images/profile.jpg" alt="Foto de perfil">
+          </figure>
+        </div>
+        <div class="profile__info-about">
+          <h2>Jesus Cordova</h2>
+          <p class="position">Webmaster</p>
+
+          <h3>Acerca de</h3>
+          <p>Five year of experience in web development, in several remote jobs for worldwide companies, such as: U.S.A,
+            Colombia, Argentina and Venezuela. I have functional knowledge in Photoshop, creating an user friendly UI, I
+            have a lot of experience using Wordpress as a CMS, HMTL, CSS, SASS and JS (using JQuery as Framework). I
+            consider myself as a self-taught person, always looking for new technologies and techniques to increase my
+            experience and to make a higher quality code.</p>
+        </div>
+      </div>
+      <div class="profile__social">
+        <ul class="profile__social-icons">
+          <li class="profile__social-icones-items">
+            <a href="https://www.linkedin.com/in/jesus-cordova/" target="_blank">
+              <figure>
+                <img src="images/linkedin-icon.png" alt="Icono de LinkedIn" />
+              </figure>
+            </a>
+          </li>
+          <li class="profile__social-icones-items">
+            <a href="https://github.com/jcordova1597" target="_blank">
+              <figure>
+                <img src="images/github-icon.png" alt="Icono de github" />
+              </figure>
+            </a>
+          </li>
+          <li class="profile__social-icones-items">
+            <a href="files/cv.pdf" download="cv" target="_blank">CV</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="content tabs">
+      <ul class="tabs__menu">
+        <li class="tabs__menu-item">
+          <h2 data-target="tab1" class="tabs__menu-anchors active">Skills</h2>
+        </li>
+        <li class="tabs__menu-item">
+          <h2 data-target="tab2" class="tabs__menu-anchors">Galería</h2>
+
+        </li>
+        <li class="tabs__menu-item">
+          <h2 data-target="tab3" class="tabs__menu-anchors">Contacto</h2>
+
+        </li>
+      </ul>
+
+      <article class="panel active tab1">
+        <h2>Habilidades Ténicas</h2>
+        <ul class="tabs__skills">
+          <li class="tabs__skills-list">
+            <h3>HTML y CSS</h3>
+            <div class="circle-wrap">
+              <div class="circle">
+
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="inside-circle">
+                  <span>5 Años</span>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="tabs__skills-list">
+            <h3>Javascript</h3>
+            <div class="circle-wrap">
+              <div class="circle">
+
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="inside-circle">
+                  <span>4 Años</span>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="tabs__skills-list">
+            <h3>Jquery</h3>
+            <div class="circle-wrap">
+              <div class="circle">
+
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="inside-circle">
+                  <span>4 Años</span>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="tabs__skills-list">
+            <h3>Wordpress</h3>
+            <div class="circle-wrap">
+              <div class="circle">
+
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="inside-circle">
+                  <span>4 Años</span>
+                </div>
+
+              </div>
+            </div>
+          </li>
+          <li class="tabs__skills-list">
+            <h3>Webflow</h3>
+            <div class="circle-wrap">
+              <div class="circle">
+
+                <div class="mask full">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="mask half">
+                  <div class="fill"></div>
+                </div>
+
+                <div class="inside-circle">
+                  <span>2 Años</span>
+                </div>
+
+              </div>
+            </div>
+          </li>
+        </ul>
+        <h2>Idiomas</h2>
+        <ul class="tabs__idiomas">
+          <li class="tabs__idioma-item">
+            <figure>
+              <img src="images/español.png" alt="Bandera idioma español">
+            </figure>
+            <p>Español</p>
+          </li>
+          <li class="tabs__idioma-item">
+            <figure>
+              <img src="images/ingles.png" alt="Bandera idioma inglés">
+            </figure>
+            <p>Ingles</p>
+          </li>
+        </ul>
+      </article>
+
+      <article class="panel tab2">
+        <h2>Portafolio de proyectos</h2>
+        <div class="tabs__gallery">
+          <div id="slider">
+            <input type="radio" name="slider" id="slide1" checked>
+            <input type="radio" name="slider" id="slide2">
+            <input type="radio" name="slider" id="slide3">
+            <div id="slides">
+              <div id="overflow">
+                <div class="inner">
+                  <div class="slide slide_1">
+                    <div class="slide-content">
+                      <figure>
+                        <img src="images/proyecto_1.png" alt="proecto 1 portafolio" />
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="slide slide_2">
+                    <div class="slide-content">
+                      <figure>
+                        <img src="images/proyecto_2.png" />
+                      </figure>
+                    </div>
+                  </div>
+                  <div class="slide slide_3">
+                    <div class="slide-content">
+                      <iframe width="560" height="315" src="https://www.youtube.com/embed/BSYsXVFzmKA"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="controls">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+            </div>
+            <div id="bullets">
+              <label for="slide1"></label>
+              <label for="slide2"></label>
+              <label for="slide3"></label>
+            </div>
+          </div>
+        </div>
+
+      </article>
+
+      <article class="panel tab3">
+        <div class="tabs__contact">
+          <div class="tabs__contact-text">
+            <h2>Mis datos</h2>
+            <p><a href="tel:+541164459498" class="tlf">+54 1164459498</a></p>
+            <p>
+              <a href="mailto:jesusc1597@gmail.com" class="email">jesusc1597@gmail.com</a>
+            </p>
+            <p class="location">Buenos Aires - Argentina</p>
+            <div class="tabs__contact-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.40687884328!2d-58.406567985609435!3d-34.59387148046198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca9a9f0e8cb9%3A0x95fc444776ee9d31!2sAv.%20Sta.%20Fe%202644%2C%20C1425BGO%20CABA%2C%20Argentina!5e0!3m2!1ses-419!2sve!4v1679011717635!5m2!1ses-419!2sve"
+                width="1050" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="tabs__contact-form">
+            <h2>Contactame</h2>
+            <label for="contacto">El motivo del contacto es:</label>
+            <select name="contacto" id="cars">
+              <option value="cotizacion">Cotización de un proyecto</option>
+              <option value="propuesta">Propuesta laboral</option>
+              <option value="asesoria">Asesoría Técnica</option>
+            </select>
+
+            <label for="mensaje">Deje un mensaje</label>
+            <textarea name="mensaje" placeholder="Escriba su mensaje aquí..."></textarea>
+
+            <button type="button">Enviar</button>
+          </div>
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer>
+    <p class="info">El portal de negocios de PaginasAmarillas.com de gurú contiene la información comercial de 11 países
+      de Latinoamérica.</p>
+    <p class="copyright">Todas las marcas registradas son propiedad de la compañía respectiva o de gurú. La reproducción
+      total o parcial de cualquier material contenido en este portal está prohibido.</p>
+    <p class="aviso">AVISO LEGAL © Copyright 2023</p>
+  </footer>
+</body>
+<div id="modal" class="overlay">
+  <div class="popup">
+    <a class="close" href="#">&times;</a>
+    <figure>
+      <img src="images/profile.jpg" alt="Foto de perfil completa" />
+    </figure>
+  </div>
+</div>
+<script src="js/main.js"></script>
+
+</html>
